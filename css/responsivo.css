@@ -1,0 +1,128 @@
+/*Cabeçalho Responsivo*/
+
+@media (max-width: 768px) {
+  .botao-menu-hamburguer {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    line-height: 46px;
+    color: #fff;
+    background-color: #04b4e0;
+    right: 10px;
+    font-size: 19px;
+    top: 10px;
+    border-radius: 30px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .botao-menu-fechar {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    line-height: 46px;
+    color: #fff;
+    background-color: #04b4e0;
+    right: 10px;
+    font-size: 19px;
+    top: 10px;
+    border-radius: 30px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
+    transform: translateZ(2);
+  }
+
+  .cabecalho {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 10px;
+    margin: 0;
+    width: 100%;
+    max-width: 45%;
+    background-color: #444;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    z-index: 1;
+    overflow: hidden;
+
+    transform: translateX(100%);
+    transition: transform 300ms;
+
+    position: fixed;
+  }
+
+  .menu-open {
+    transform: translateX(0);
+    position: fixed;
+  }
+
+  .foto-perfil {
+    max-width: 130px;
+    max-height: 130px;
+    margin-bottom: 0;
+  }
+
+  .cabecalho-titulo {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .cabecalho-subtitulo {
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .menu-navegacao {
+    display: flex;
+    flex-direction: column;
+    background-color: #444444;
+    position: relative;
+    height: 40%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .icone-navegacao {
+    display: none;
+  }
+
+  .link-navegacao {
+    border: none;
+  }
+
+  .texto-navegacao {
+    font-size: 1rem;
+  }
+
+  
+@media (max-width: 768px) {
+  .cabecalho {
+    max-width: 100%;
+  }
+}

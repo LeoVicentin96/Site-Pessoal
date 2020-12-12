@@ -1,0 +1,359 @@
+/*css conteudo do curriculo*/
+
+.secao-curricular {
+  margin-left: 425px;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.titulo-educacao {
+  color: #eee;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.titulo-educacao::after {
+  position: absolute;
+  opacity: 0.45;
+  top: 40px;
+  left: 585px;
+  content: '';
+  height: 30px;
+  width: 50px;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  -webkit-background-size: 6px 6px;
+  -moz-background-size: 6px 6px;
+  background-size: 6px 6px;
+  z-index: 0;
+}
+
+.subtitulo-educacao {
+  color: #eee;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 20px 0;
+  margin: 3rem 0;
+}
+
+.subtitulo-educacao::after {
+  position: absolute;
+  opacity: 0.45;
+  top: 137px;
+  left: 550px;
+  content: '';
+  height: 20px;
+  width: 30px;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  -webkit-background-size: 6px 6px;
+  -moz-background-size: 6px 6px;
+  background-size: 6px 6px;
+  z-index: 0;
+}
+
+.conteudo-educacao {
+  display: flex;
+  flex-direction: row;
+
+  width: 95%;
+  margin-left: 3rem;
+}
+
+.conteudo-educacao-primeiro {
+  width: 30%;
+  border-right: 1px solid #444;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.conteudo-educacao-segundo {
+  width: 100%;
+  text-align: left;
+}
+
+.data-educacao {
+  color: #aaa;
+  margin: 3px 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.local-educacao {
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.45em;
+  color: #a5a6a7;
+}
+
+.informacao-educacao {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 220px;
+  top: -70px;
+  width: 60%;
+}
+
+.titulo-curso {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  color: #dfdfdf;
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+.titulo-curso::before {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  width: 9px;
+  height: 9px;
+  margin-left: -39px;
+  background-color: #222;
+  border-radius: 6px;
+  border: 2px solid #04b4e0;
+  box-shadow: 0 0 6px 2px #04b4e0;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.texto-curso {
+  font-size: 0.92em;
+  margin-bottom: 0.5rem;
+  color: #d5d5d5;
+  line-height: 1.4rem;
+}
+
+/*css conteudo da experiencia*/
+
+.subtitulo-experiencia {
+  color: #eee;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 3rem 0;
+  position: relative;
+}
+
+.subtitulo-experiencia::after {
+  position: absolute;
+  opacity: 0.45;
+  top: 6px;
+  left: 110px;
+  content: '';
+  height: 20px;
+  width: 30px;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  -webkit-background-size: 6px 6px;
+  -moz-background-size: 6px 6px;
+  background-size: 6px 6px;
+  z-index: 0;
+}
+
+.conteudo-experiencia {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-left: 3rem;
+}
+
+.conteudo-experiencia-primeiro {
+  width: 30%;
+  border-right: 1px solid #444;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.conteudo-experiencia-segundo {
+  width: 100%;
+  text-align: left;
+}
+
+.data-experiencia {
+  color: #aaa;
+  margin: 3px 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.local-experiencia {
+  display: block;
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.45em;
+  color: #a5a6a7;
+}
+
+.titulo-experiencia {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  color: #dfdfdf;
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+.titulo-experiencia::before {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  width: 9px;
+  height: 9px;
+  margin-left: -39px;
+  background-color: #222;
+  border-radius: 6px;
+  border: 2px solid #04b4e0;
+  box-shadow: 0 0 6px 2px #04b4e0;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.texto-experiencia {
+  font-size: 0.92em;
+  color: #d5d5d5;
+  line-height: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .secao-curricular {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .titulo-educacao::after {
+    left: 163px;
+  }
+
+  .subtitulo-educacao::after {
+    left: 125px;
+  }
+}
+
+@media (max-width: 560px) {
+  .conteudo-educacao {
+    margin: 0 auto;
+  }
+
+  .conteudo-experiencia {
+    margin: 0 auto;
+  }
+
+  .data-educacao {
+    padding-right: 10px;
+  }
+
+  .data-experiencia {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  .conteudo-educacao-primeiro {
+    margin-right: 1.5rem;
+  }
+
+  .conteudo-experiencia-primeiro {
+    margin-right: 1.5rem;
+  }
+
+  .conteudo-educacao-segundo {
+    width: 75%;
+  }
+
+  .conteudo-experiencia-segundo {
+    width: 75%;
+  }
+
+  .titulo-curso::before {
+    margin-left: -31px;
+  }
+
+  .titulo-experiencia::before {
+    margin-left: -31px;
+  }
+
+  .data-educacao {
+    padding-right: 10px;
+  }
+
+  .data-experiencia {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .conteudo-experiencia-segundo {
+    width: 60%;
+  }
+
+  .conteudo-educacao-segundo {
+    width: 60%;
+  }
+}

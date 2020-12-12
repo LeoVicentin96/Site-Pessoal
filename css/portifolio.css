@@ -1,0 +1,115 @@
+.conteudo-portifolio {
+  margin-left: 425px;
+  background-color: #222222;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 45px;
+  padding-left: 45px;
+}
+
+/*css da pagina portifolio*/
+
+.titulo-portifolio {
+  color: #eee;
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.titulo-portifolio::after {
+  position: absolute;
+  opacity: 0.45;
+  top: 12px;
+  right: -27px;
+  content: '';
+  height: 30px;
+  width: 50px;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    #04b4e0,
+    #04b4e0 1px,
+    transparent 0px,
+    transparent 100%
+  );
+  -webkit-background-size: 6px 6px;
+  -moz-background-size: 6px 6px;
+  background-size: 6px 6px;
+  z-index: 0;
+}
+
+/*grid portifolio*/
+
+.container-portifolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-portifolio-quadro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+  margin-bottom: 2rem;
+}
+
+.imagem-portifolio {
+  height: 240px;
+  width: 240px;
+}
+
+.subtitulo-portifolio {
+  font-size: 16px;
+  color: #eee;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.link-portifolio {
+  position: absolute;
+  height: 240px;
+  width: 240px;
+}
+
+.container-portifolio-quadro:hover {
+  transform: scale(1.1);
+  transition: 500ms ease-in;
+}
+
+@media (max-width: 1010px) {
+  .container-portifolio {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .conteudo-portifolio {
+    margin: 0 auto;
+    width: 100vw;
+    padding: 2rem;
+  }
+
+  .container-portifolio {
+    justify-content: space-around;
+  }
+}
