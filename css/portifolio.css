@@ -76,6 +76,9 @@
 .imagem-portifolio {
   height: 240px;
   width: 240px;
+  background-color: #eee;
+  border-radius: 5px 5px;
+  opacity: 0.8;
 }
 
 .subtitulo-portifolio {
