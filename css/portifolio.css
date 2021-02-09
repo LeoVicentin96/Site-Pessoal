@@ -77,15 +77,16 @@
   height: 240px;
   width: 240px;
   background-color: #eee;
-  border-radius: 5px 5px;
-  opacity: 0.8;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
 }
 
 .subtitulo-portifolio {
-  font-size: 16px;
+  font-size: 1.2rem;
   color: #eee;
   font-weight: 600;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .link-portifolio {
@@ -96,7 +97,7 @@
 
 .container-portifolio-quadro:hover {
   transform: scale(1.1);
-  transition: 500ms ease-in;
+  transition: 300ms ease-in-out;
 }
 
 @media (max-width: 1010px) {
