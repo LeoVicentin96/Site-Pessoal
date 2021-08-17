@@ -81,8 +81,9 @@
   font-size: 18px;
   color: #bbb;
   font-weight: 300;
-  margin: 15px 0;
-  line-height: 1.2rem;
+  margin: 1.2rem 1rem;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
 .cabecalho-lista {
